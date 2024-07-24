@@ -11,17 +11,20 @@ import Mail from "../icons/Mail.astro";
 	description="Desarrollador web full-stack especializado en HTML, CSS, JavaScript, React, Tailwind CSS, Node.js y MongoDB. Explora mis proyectos y trabajos, incluyendo aplicaciones web interactivas y soluciones innovadoras. ¡Conéctate conmigo y descubre cómo puedo aportar a tu equipo!"
 >
   <main>
-    <section class="mx-auto w-3/6 py-24">
-      <img src="
+    <section id="home" class="mx-auto w-3/6 py-24">
+      <div class="flex flex-row items-center justify-start gap-x-4 p-3 " >
+        <img src="
 			" alt="Ramiro Crespi Foto" class="rounded-full w-8 h-8 mb-2" />
-      <h1 class="text-white text-5xl font-bold flex pb-4 gap-x-4 flex-row">
-        Hey, soy Ramiro <a
+      <a
           href="https://www.linkedin.com/in/ramiro-crespi/"
           target="_blank"
           rel="noopener"
           class="flex justify-center mx-2 items-center"
           ><Badge>Disponible para trabajar</Badge></a
         >
+      </div>
+      <h1 class="text-white text-5xl mt-2 font-bold flex pb-4 gap-x-4 flex-row">
+        Hey, soy Ramiro 
         <div class="flex justify-center items-center"></div>
       </h1>
       <h2 class="opacity-80 font-medium text-wrap text-xl">
@@ -30,7 +33,7 @@ import Mail from "../icons/Mail.astro";
         >
       </h2>
 
-      <nav class="flex gap-x-2 my-5 " >
+      <nav class="flex flex-row gap-x-2 my-6 flex-wrap gap-y-3 " >
 		<Social href="https://www.linkedin.com/in/ramiro-crespi/" >
 			<Linkedin class="size-4" />
 			Linkedin
@@ -45,5 +48,10 @@ import Mail from "../icons/Mail.astro";
 		</Social>
       </nav>
     </section>
+
+    <section>
+      
+    </section>
+
   </main>
 </Layout>
